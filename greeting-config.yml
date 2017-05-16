@@ -9,4 +9,4 @@ logging: # <----New sections below
   level:
     com: DEBUG
 greeting:
-  displayFortune: true # <----Change to true
+  displayFortune: false # <----Change to true
