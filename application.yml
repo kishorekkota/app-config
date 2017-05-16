@@ -1,1 +1,19 @@
 message: "Test Message"
+
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+      
+spring: # <---NEW SECTION
+  cloud:
+    services:
+      registrationMethod: route
