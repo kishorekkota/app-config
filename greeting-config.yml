@@ -7,4 +7,4 @@ management:
     enabled: false # turn off securing the actuator endpoints
 logging: # <----New sections below
   level:
-    com: INFO
+    com: DEBUG
